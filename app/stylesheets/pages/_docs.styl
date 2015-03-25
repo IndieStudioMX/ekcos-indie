@@ -1,0 +1,168 @@
+.docs-wrapper
+	width 100%
+	position absolute
+	height 100%
+	top 0 
+	left 0
+	bottom 0
+	right 0
+
+.docs-container
+	position absolute
+	background url('../images/power-bg.jpg') no-repeat
+	width 100%
+	height 100%
+	background-size 100% 100%
+	top 0
+
+.docs-items-container
+	top 26rem
+	position relative
+
+.buynow-btn
+	position relative
+	top -10.2rem
+
+.footer-docs 
+	background $footer-bg
+	margin-top 1rem
+	padding 0 2.9rem
+	line-height 4.5rem
+	position absolute 
+	width 100%
+	height auto
+	font-size 1.3rem
+	bottom 0 
+	p 
+		color $text-color-light 
+	a
+		color $text-color-light 
+		display block
+		width 100%
+		height 40px
+	.brand-footer
+		position relative
+		top -2.5rem
+	
+.leaf-docs
+	top 8.2rem
+	
+.container-docs 
+	width 1000px
+	margin 0 auto
+	height 100%
+
+.thumbnail 
+	width 100%
+	
+.buynow-btn
+	background url('../images/buynow-btn.png') no-repeat
+	background-size 100% 100%
+	border 0
+	padding 1.8rem 2.6rem
+	color rgb(204,204,51)
+	&:hover, &:active, &:focus
+		opacity .9
+		background url('../images/buynow-btn.png') no-repeat
+		background-size 100% 100%
+		color lighten(rgb(204,204,51), 5%)
+		border 0
+		outline 0
+		outline-offset 0
+		box-shadow inset 0 0 0
+		
+.power-d-center
+	display block 
+	margin 0 auto
+	
+.buttonNav 
+	top 1rem !important
+
+.carousel .buttonNav .bullet, .carousel-ekcos .buttonNav .bullet
+	background white  !important 
+	border-radius 50%  !important 
+	box-shadow 1px 1px 0px 1px rgba(210,207,207,1)  !important 
+	
+.carousel .buttonNav .bulletActive, .carousel-ekcos .buttonNav .bulletActive
+	background $font-active-color  !important 
+	border-radius 50%   !important 
+	box-shadow 1px 1px 0px 1px rgba(152,152,152,1) !important 
+	
+.slides 
+	top 5rem
+	
+.carousel .shadow .shadowRight, .carousel-ekcos .shadow .shadowRight 
+	width 50px
+	
+
+.it-ekcos, .ic-ekcos, .ig-ekcos 
+	font-size 1.45rem !important
+	
+.it-ekcos::after,.ic-ekcos::after, .ig-ekcos::after
+	content ""
+	display inline-block 
+	position absolute 
+	height 27px 
+	width 40px 
+	top .45rem
+	right 1rem  
+	background url('../images/sprite-modal.png')
+	background-repeat no-repeat 
+	background-position 3px -14px
+	background-size 364%
+	
+.it-ekcos::after
+	background-position -105px -10px
+	right 14rem 
+	
+.ig-ekcos::after
+	background-position -60px -12px
+	right 33rem 
+@media screen and (min-width 200px) and (max-width 300px) and (min-height 480px)
+	.docs-container 
+		height 200rem 
+	.container-docs 
+		width 100%
+	.docs-items-container 
+		top 12rem 
+		width 100%
+		
+@media screen and (min-width 301px) and (max-width 500px) and (min-height 480px)
+	.docs-container 
+		height 250rem 
+	.container-docs 
+		width 100%
+	.docs-items-container 
+		top 12rem 
+		width 100%
+@media screen and (min-width 501px) and (max-width 980px) and (min-height 480px)
+	.container-docs 
+		width 100%
+//Generic styles for Netbook 10"
+@media screen and (min-width 1280px) and (min-height 800px)
+	.thumbnail 
+		width 100%
+		margin-bottom 0
+	.docs-items-container
+		top 32rem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

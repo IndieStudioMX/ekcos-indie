@@ -1,0 +1,210 @@
+.carousel 
+	position relative
+	top 0
+	height auto
+	width 100%
+	bottom 0
+	/*margin-bottom .9rem*/
+
+.carousel-container 
+	/*height 100%*/
+	height auto
+	width 100%
+	position absolute
+	top 7rem
+	left 0
+	right 0
+	bottom 0
+
+.carousel-indicators 
+	bottom 73px
+	display block
+
+.carousel, .item, .active 
+	height 100% 
+	
+.carousel-inner 
+	height 100%
+	/*top 38px
+	height 576px */
+	height 100%
+	top 0
+.carousel-control 
+	width 7%
+	&:hover, &:focus
+		filter unquote('alpha(opacity=' + 50 + ')')
+		opacity .5
+
+.carousel-control.left
+	height 100% 
+	bg-gradient gradient(rgba(136,134,134,.25) 0%, rgba(136,134,134,.25) 100%) !important 
+	opacity 1 !important
+.carousel-control.right
+	height 100%
+	bg-gradient gradient(rgba(136,134,134,.25) 0%, rgba(136,134,134,.25) 100%) !important
+	opacity 1 !important 
+.carousel-caption
+	position relative
+	top 39%
+	z-index 3
+	margin 0 auto 
+	left 0
+	width 80%
+	h3
+		color $carousel-title-color
+		text-shadow none
+		width 460px
+		margin 0 auto 0 auto
+		/*font-size 2.7875rem*/
+		font-size 26.45pt
+		text-transform uppercase
+		font-weight bold
+	hr 
+		border-top 2px solid $carousel-line
+		width 483px
+		margin-top 18px
+		margin-bottom 4px
+	p
+		margin-top 0
+		margin-bottom 0
+		text-shadow none
+		color $carousel-content-color
+		font-weight bold
+		font-size 1rem
+
+.antisplash-hr 
+	width 353px !important
+.carousel-caption_message
+	height 58px
+	width 100%
+	background url('../images/caption-bg.svg') no-repeat
+	background-size 101% 96%
+	background-position -9px 7px
+	position absolute
+	top 71.2rem
+	p 
+		font-size 1.3rem
+		font-style italic
+		line-height 0.5rem 
+	.caption_message-p
+		margin-top 2.3rem
+
+.waterless-caption
+	top 50%
+	h3 
+		width 300px
+		margin 0 auto 0 auto !important
+	hr 
+		width 334px
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img
+	height 0% !important 
+	top -2rem !important 
+	margin-top -37rem
+	height auto !important 
+	margin-top 3.3rem
+	
+
+.slider-01-bg 
+	background url('../images/Slide-1.jpg') center center
+	background-size cover
+	width 100% 
+	height 100% 
+	background-position 50% 50% 
+	
+.slider-02-bg 
+	background url('../images/Slide-2.jpg') center center
+	background-size cover
+	background-position 0 -17rem
+
+.slider-03-bg 
+	background url('../images/Slide-3.jpg') center center
+	background-size cover
+	width 100% 
+	height 100% 
+	background-position center 
+
+.slider-04-bg 
+	background url('../images/Slide-4.jpg') center center
+	background-size cover
+	width 100% 
+	height 100% 
+	background-position center 
+	
+.slider-05-bg 
+	background url('../images/Slide-5.jpg') center center
+	background-size cover
+	width 100% 
+	height 100% 
+	background-position center 
+
+.slider-size 
+	height 100%
+
+.slider-04-caption 
+	bottom 9.5rem
+	height auto 
+	padding-bottom 1.2rem !important
+	padding-top .7rem 
+	background $ekcoscreen-bg-item
+	width 100%
+
+.is_invisible 
+	display none
+
+.is_visible 
+	display block
+
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right
+	color rgba(102,74,120,1)
+	-webkit-transition .2s all ease-in
+	-moz-transition .2s all ease-in
+	-ms-transition .2s all ease-in 
+	transition .2s all ease-in
+
+
+.carousel-control .icon-prev:hover, 
+.carousel-control .icon-next:hover, 
+.carousel-control .glyphicon-chevron-left:hover, 
+.carousel-control .glyphicon-chevron-right:hover 
+	color rgba(102,74,120,.5)
+	font-size 2.4em
+	-webkit-transition .3s all ease-in
+	-moz-transition .3s all ease-in
+	-ms-transition .3s all ease-in 
+	transition .3s all ease-in
+
+.carousel-indicators li
+	border: 1px solid #3D137B;
+	
+.carousel-indicators .active
+	background-color rgba(102, 74, 120, 0.96)
+	border: 1px solid #3D137B;
+
+
+@media screen and (min-width 1024px) and (max-width 1279px) 
+	.navbar-default .navbar-nav li:last-child
+		left -1.4rem 
+		width 190px
+		top: -7px
+		
+	.navbar-default .navbar-nav li:last-child > a > img
+		top 11px 
+		left 10.6rem
+	
+	.navbar-default .navbar-nav li:first-child
+		margin-left 25rem
+		
+	.navbar-default .navbar-nav li > .item-menu
+		padding 0 1.2rem
+		
+	.navbar-products li > a
+		padding .5rem 1.5rem .5rem 1.5rem 
+		
+	.navbar-products li:last-child
+		width 17rem 
+		right -13px 
+		
+	.navbar-products li:first-child
+		margin-left 55.5%
+		
