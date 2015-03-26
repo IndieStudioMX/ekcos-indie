@@ -93,6 +93,8 @@ li
 		height 100% 
 		width 100% 
 		padding 0 4rem
+		&:active 
+			border 0
 		.nav-title 
 			-webkit-transform skew(-29deg)
 			-moz-transform skew(-29deg)
@@ -182,12 +184,8 @@ li
 /* Navigation Products */ 
 .navbar-products 
 	position absolute 
-	width 137rem
+	/*width 137rem*/
 	height 2.8rem
-	/*background url('../images/hd-submenu.png')*/
-	background-position 0
-	background-size 100% 
-	background-repeat no-repeat
 	top 4.5rem 
 	font-weight bold
 	right 0
@@ -223,14 +221,14 @@ li
 			transition .3s all ease-in
 				
 		&:first-child 
-			margin-left 36.5%
+			margin-left 25rem
 		
 		&:last-child
 			background url('../images/docs-bg-light.png')
 			background-size 100%
 			background-position 0 0 
 			width 28rem 
-			right -36px
+			right 0
 			height 4rem
 			background-repeat no-repeat 
 			-webkit-transform scale(1) skew(0deg)
@@ -267,4 +265,7 @@ li
 			transform skew(-29deg)
 			&:hover 
 				color $text-color-light
+			&:active 
+				border 0 
+				
  			
