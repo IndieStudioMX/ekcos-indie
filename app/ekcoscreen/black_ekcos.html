@@ -1,0 +1,248 @@
+<HTML>
+
+<!-- AQUI COMIENZA scrip para precagar rollover-->
+<script language="JavaScript" type="text/javascript">
+  imagenOn = new Image(95,18);
+  imagenOn.src = "imagenes/shop/botoncart_roll.jpg";
+	
+	function cmbUnit_OnChange()
+	{
+		var arrQty = document.getElementById('quantity');
+		
+		//alert('Elementos iniciales ' + arrQty.options.length);
+        for(var i = arrQty.options.length; i >= 0 ; i --) 
+        {
+        	//alert('Borrando ' + i);
+        	arrQty.options[i] = null; 
+		}
+		//alert('Elementos Finales ' + arrQty.options.length);
+		
+		//Seleccion para Piezas
+		if (document.getElementById('cmbUnit').value == 0)
+		{
+            for(var i = 2; i <= 4; i=i+2) 
+				arrQty.options[i - 2] = new Option(i);
+			document.getElementById('add').value = "EKS-7BK";
+			
+		}
+		
+		//Seleccion para 1/2 caja
+		if (document.getElementById('cmbUnit').value == 1)
+		{
+			arrQty.options[0] = new Option(1);
+			document.getElementById('add').value = "EKS-7BK-HCS";
+		}
+		
+		//Selecciona para Cajas		
+		if (document.getElementById('cmbUnit').value == 2)
+		{
+            for(var i = 1; i <= 100; i++) 
+				arrQty.options[i - 1] = new Option(i);
+			document.getElementById('add').value = "EKS-7BK-CS";
+			
+		}
+	}	
+	
+	function btnSubmit_OnClick()
+	{
+		document.frmEkcos.submit();
+	}
+  
+</script>
+<!-- AQUI TERMINA scrip para precagar rollover-->
+
+<!-- AQUI COMIENZA scrip para precagar rollover CONTINUE SHOPPING -->
+<script language="JavaScript" type="text/javascript">
+  imagenOn = new Image(95,18);
+  imagenOn.src = "imagenes/shop/boton_continue_shopping_roll.jpg";
+</script>
+<!-- AQUI TERMINA scrip para precagar rollover CONTINUE SHOPPING -->
+
+<!-- AQUI COMIENZA scrip para cerrar ventana -->
+<script>
+function cerrarse(){
+window.close()
+}
+</script> 
+<!-- AQUI TERMINA scrip para cerrar ventana -->
+
+
+
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- AQUI COMIENZAN META TAGS -->
+
+<META name="description" content="FRASES CLAVE">
+<META name="keywords" content="PALABRAS CLAVE">
+<META name="language" content="es">
+<META name="revisit-after" content="1 month">
+<META name="rating" content="General">
+<META name="author" content="Microtec / Ruben Franco Garcilazo">
+<META name="owner" content="EHCOS.COM">
+<META name="robot" content="index, follow">
+
+<!-- AQUI TERMINAN META TAGS -->
+
+
+
+
+
+<title>EKCOS e-shop</title>
+
+
+
+<link rel="shortcut icon" href="images\complementos\fondo.jpg">
+<style type="text/css">
+body {
+	background-image: url("../images/complementos/fondo.gif");	
+	background-color: #F8F9F8;}
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+}
+a:link {
+	color: #F90;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #F90;
+}
+a:hover {
+	text-decoration: none;
+	color: #F90;
+}
+a:active {
+	text-decoration: none;
+	color: #F90;
+}
+.parrafomenor {
+	font-size: 9pt;
+}
+.negritas {
+	font-weight: bold;
+}
+.parrafomenor2 {	font-size: 8pt;
+}
+</style>
+
+
+<!-- AQUI COMIENZA SCRIPT PARA GOOGLE -->
+<script type="text/javascript">
+
+  var_gaq =_gaq || [];
+ _gaq.push(['_setAccount', 'UA-35408264-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>  
+<!-- AQUI TERMINA SCRIPT PARA GOOGLE -->
+
+
+</head>
+
+<body background="imagenes/shop/background2.png" onLoad="cmbUnit_OnChange()">
+
+
+
+
+<center>
+<table width="425" bgcolor="#FFFFFF">
+  <tr>
+    <td>
+    <a href= "#" onClick="cerrarse()">
+    <img src="../images/complementos/cabeza.png" width="640" height="77"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><table width="95%" border="0" cellpadding="0" cellspacing="5">
+  <tr>
+    <td width="44%" align="center"><img src="../images/Ekcos/8.jpg" width="253" height="169"></td>
+    <td><span class="negritas">ëkcoscreen 2.0</span><br>
+      <br>
+      <span class="negritas">Color:</span> Black<br>
+      <span class="negritas">Fragrance</span>: Ice Mint<br>
+      <span class="negritas">Size:</span> 8&quot; x 7.6&quot;
+      <br>
+      <span class="negritas">Weight:</span> 5 oz.<br>
+      <span class="negritas">Duration:</span> 60 days PLUS.</td>
+    </tr>
+  <tr>
+    <td align="center" valign="top"><br>
+    <p class="negritas">Green Pine ëkcoscreen</p>
+    <p>Ice Mint Fragrance <br> 
+      EKS-7BK</p>
+    <p>&nbsp;</p></td>
+    <td><p><!--All items are packed in 2 per sealed bag.--><br>
+      <br>
+      <span class="negritas">Prices:</span><br>
+      1 screen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<script language="Javascript" src="http://secure.ultracart.com/cgi-bin/UCPrice?MERCHANTID=EKCOS&ITEM=EKS-7BK&output=Javascript"></script><br>
+      Half Case (6 screens)&nbsp;&nbsp;<script language="Javascript" src="http://secure.ultracart.com/cgi-bin/UCPrice?MERCHANTID=EKCOS&ITEM=EKS-7BK-HCS&output=Javascript"></script><br>
+      Full Case (12 screens)&nbsp;<script language="Javascript" src="http://secure.ultracart.com/cgi-bin/UCPrice?MERCHANTID=EKCOS&ITEM=EKS-7BK-CS&output=Javascript"></script></p>
+      
+      <p><span class="parrafomenor">Purchases over 2 cases: call for special pricing.
+      <br>Distributors: call for distribution pricing.
+      <br>
+      Contact us: (925) 371-1277 x24
+      </span><br>
+      <a href="mailto:guillermo@ekcos.com">guillermo@ekcos.com</a></p>
+      <p>&nbsp;</p></td>
+    </tr>
+  <tr>
+    <td ></td>
+    <td align="center">
+      <!-- aqui inicia formulario -->
+      
+      <form method="POST" id="frmEkcos" name="frmEkcos" action="http://secure.ultracart.com/cgi-bin/UCEditor">
+        <input type="hidden" name="merchantId" value="EKCOS"></input>
+        <input type="hidden" name="add" id="add" value="EKS-7BK"></input>
+        <table>
+          <tr>
+            <td>Qty</td>
+            <td><select size="1" name="cmbUnit" id="cmbUnit" onChange="cmbUnit_OnChange()">
+	<option selected value="0">Screen</option>
+	<option value="1">Half Case</option>
+	<option value="2">Full Case</option>
+	</select>&nbsp;<select size="1" name="quantity" id="quantity"></select></td>
+          </tr>
+          <tr align="center">
+            <td></td>
+            <td>
+              
+              <span class="parrafomenor"><span class="parrafomenor2"><!--Sold in packages of 2 (2 minimum)--></span></span></td>
+          </tr>
+          <tr align="center"
+         >
+            <td></td>
+            <td> 
+            <!-- aqui inicia mi boton -->
+            <a href= "#" onClick="btnSubmit_OnClick();" onMouseOver="document.boton.src='../images/complementos/boton1.jpg';" onMouseOut="document.boton.src=../images/complementos/boton1.jpg';"><img src="../images/complementos/boton1.jpg" alt="" name="boton" width="95" height="18" border= "0" id="boton"></a>
+            <!-- aqui termina mi boton -->
+            
+            <!-- aqui inicia mi boton continue shopping  -->
+            <a href= "http://indie-proyectosweb.mx/ekcoscreen.html" onClick="cerrarse()" onMouseOver="document.botoncontinue.src='../images/complementos/boton2.jpg';" onMouseOut="document.botoncontinue.src='../images/complementos/boton2.jpg';"><img src="../images/complementos/boton2.jpg" alt="" name="botoncontinue" width="95" height="18" border= "0" id="botoncontinue"></a>
+            <!-- aqui termina mi boton continue shopping -->
+            
+            
+            </td>
+          </tr>
+        </table>
+      </form>
+  <!-- aqui termina formulario -->
+  
+  </td>
+    </tr>
+    </table>
+</td>
+  </tr>
+  <tr>
+    <td><img src="../images/complementos/pie.png" width="640" height="74"></td>
+  </tr>
+</table>
+</body>
+</html>
