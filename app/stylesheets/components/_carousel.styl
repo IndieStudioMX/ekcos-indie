@@ -158,13 +158,22 @@
 .is_visible 
 	display block
 
-.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right
-	color rgba(102,74,120,1)
+
+.carousel-control .icon-prev, 
+.carousel-control .icon-next, 
+.carousel-control .glyphicon-menu-left, 
+.carousel-control .glyphicon-menu-right 
+	color #664a78
 	-webkit-transition .2s all ease-in
 	-moz-transition .2s all ease-in
-	-ms-transition .2s all ease-in 
+	-ms-transition .2s all ease-in
 	transition .2s all ease-in
-
+	position absolute
+	font-size 3.2rem
+	font-weight normal
+	top 50%
+	z-index 5
+	display inline-block
 
 .carousel-control .icon-prev:hover, 
 .carousel-control .icon-next:hover, 
@@ -184,30 +193,3 @@
 	background-color rgba(102, 74, 120, 0.96)
 	border: 1px solid #3D137B;
 
-
-@media screen and (min-width 1024px) and (max-width 1279px) 
-	.navbar-default .navbar-nav li:last-child
-		left -1.4rem 
-		width 190px
-		top: -7px
-		
-	.navbar-default .navbar-nav li:last-child > a > img
-		top 11px 
-		left 10.6rem
-	
-	.navbar-default .navbar-nav li:first-child
-		margin-left 25rem
-		
-	.navbar-default .navbar-nav li > .item-menu
-		padding 0 1.2rem
-		
-	.navbar-products li > a
-		padding .5rem 1.5rem .5rem 1.5rem 
-		
-	.navbar-products li:last-child
-		width 17rem 
-		right -13px 
-		
-	.navbar-products li:first-child
-		margin-left 55.5%
-		

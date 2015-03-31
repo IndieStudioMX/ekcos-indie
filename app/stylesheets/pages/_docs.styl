@@ -16,7 +16,7 @@
 	top 0
 
 .docs-items-container
-	top 26rem
+	top 32rem
 	position relative
 
 .buynow-btn
@@ -45,7 +45,7 @@
 		top -2.5rem
 	
 .leaf-docs
-	top 8.2rem
+	top 6.2rem
 	
 .container-docs 
 	width 1000px
@@ -70,7 +70,34 @@
 		outline 0
 		outline-offset 0
 		box-shadow inset 0 0 0
+
+.doc--title, .buynow--title 
+	width 100%
+	margin 0 auto
+	left 0
+	position absolute
+	text-align center
+	top 22rem
+	& h1 > img 
+		width 24%
+		margin 0 auto
 		
+.buynow--title h1 > img 
+	width 18%
+
+		
+.docs-container, .buynow--container 
+	position absolute
+	background url("../images/documentation.jpg") no-repeat
+	width 100%
+	height 100%
+	background-size 100% 100%
+	top 0
+
+.buynow--container 
+	background url("../images/buy.jpg") no-repeat
+	background-size cover
+	
 .power-d-center
 	display block 
 	margin 0 auto
@@ -96,7 +123,7 @@
 	
 
 .it-ekcos, .ic-ekcos, .ig-ekcos 
-	font-size 1.45rem !important
+	font-size 1rem !important
 	
 .it-ekcos::after,.ic-ekcos::after, .ig-ekcos::after
 	content ""
