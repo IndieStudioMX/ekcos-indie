@@ -16,23 +16,30 @@
 	  <!--[if lt IE 7]>
     	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="fluid-container page-wrapper">
+    <div class="container-fluid page-wrapper">
       <!-- Navbar -->
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+            <button id="cmn-toggle" class="cmn-toggle-switch cmn-toggle-switch__htx">
+              <span>toggle menu</span>
             </button>
             <a href="index.html" class="brand">
               <img class="img-responsive" src="images/brand0.svg" alt="Ekcos Logo">
             </a>
             <div class="mobile-submenu">
+              <ul class="sidebar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restroom.html">Antisplash</a></li>
+                <li><a href="waterless.html">Waterless Technologies</a></li>
+                <li><a href="airfresheners.html">Air Fresheners</a></li> 
+                <li><a href="company.html">Company</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="news.html">News</a></li> 
+                <li><a href="contact.html">Contact Us</a></li> 
+              </ul>
               <div class="view-cart-container">
-                <a class="btn-buy" href="javascript:abrir_ventana('http://secure.ultracart.com/cgi-bin/UCEditor?MerchantID=ekcos')">View Cart
+                <a class="btn-buy" href="http://secure.ekcos.com/cgi-bin/UCEditor?MerchantID=ekcos" target="_blank">View Cart
                   <img src="images/cart.svg" alt="">
                 </a>
               </div>
@@ -293,7 +300,7 @@
           <div class="col-md-3 col-sm-6 footer-reserved">
             <p class="text-muted text-center">All Rights Reserved</p>
           </div>
-          <div class="col-md-3 text-center col-sm-6">
+          <div class="col-md-3 text-center col-sm-6 footer-brand">
            <a href="#">
              <img class="img-responsive brand-footer" src="images/brand-footer_dark-01.png" alt="">
            </a>
