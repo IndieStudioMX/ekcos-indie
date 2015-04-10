@@ -2,7 +2,7 @@
 
 (function () {
   $('.carousel').carousel({
-      interval: 80000
+      interval: 4000
   });
 
   $('#overlayl').on('mouseover', function(){
