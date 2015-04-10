@@ -1,6 +1,10 @@
 .modal-body 
 	padding 14px
 
+.row-power-gallery-mobile
+	display none 
+
+
 .modal-content 
 	background rgb(208,208,208) /* Old browsers */
 	background -moz-linear-gradient(to bottom, rgba(208, 208, 208, 0.3) 0%, rgba(224, 224, 223, 0.84) 56%, rgba(254, 255, 255, 0.91) 100%) /* FF3.6+ */
@@ -1100,3 +1104,75 @@ li.flip-item.flip-current
 	.navbar-products li:last-child 
 		width 17rem
 		right -13px
+		
+
+@media screen and (min-width 320px) and (max-width 1023px)
+	.row-ekcos-d, .row-ekcos-c, .row-ez-c, .row-ez-d, .row-power
+		width 100%
+		margin: 0px 2.3% 15px 0.3%;
+		height 100%
+
+		
+	.power-d01
+		width 33%
+		height: 100%;
+		
+	.modal-title
+		font-size 1rem 
+		
+	.it-power::after
+		top 0
+	.power-t01, .power-t02, .power-t03,.power-t04, .power-t05, .power-t06,
+	.it-ekcos01, .it-ekcos02, .it-ekcos03, .it-ekcos04, .it-ekcos05, .it-ekcos06, 
+	.tru-c01, .tru-c02, .tru-c03, .tru-t01, .tru-t02, .tru-t03
+		width 100%
+		margin 0
+		
+	.row-ez-d, .row-ez-c
+		padding 0 0 1rem 0 !important
+	.ekcos-t-mobile, .ekcos-d-mobile
+		display: inline-block;
+		vertical-align middle
+		width: 32%;
+		padding 3px 
+		height 14rem 
+		
+	.ic-power::after
+		top 0
+	
+	.modal-content 
+		width 100% !important
+		margin 0 auto !important 
+		height 120rem !important
+		
+	.row-power-gallery
+		display none 
+		
+	.row-power-gallery-mobile 
+		display block 
+		
+	.ig-power::after
+		top 0 
+		right 3rem 
+		
+	.ekcos-d
+		height 140px 
+		
+	.it-ez::after
+		background-position: -105px -10px !important
+
+	.it-ekcos::after 
+		background-position: -105px -10px !important
+		
+	.close 
+		float right !important 
+		font-size 30px !important 
+		font-weight bold 
+		line-height 1
+		color #fff 
+		text-shadow 0 1px 0 #fff 
+		filter unquote('alpha(opacity=' + 90 + ')') !important 
+		opacity .9 !important 
+		&:hover 
+			color #fff 
+			text-shadow 0 1px 0 #fff 
