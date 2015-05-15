@@ -138,13 +138,24 @@
 	background-position 3px -14px
 	background-size 364%
 	
-.it-ekcos::after
-	background-position -105px -10px
-	right 14rem 
+.it-ekcos::after, .it-ez::after 
+	background-position -105px -10px !important 
+	right 14rem !important 
+	top 0 !important
 	
+.it-ez::after 
+	right 0 !important
+
 .ig-ekcos::after
-	background-position -60px -12px
-	right 33rem 
+	background-position -60px -12px !important 
+	right 33rem !important 
+	top 0 !important 
+
+.ig-power::after 
+	background-position: -57px -10px
+	right: 30rem
+	top: 0;
+
 @media screen and (min-width 200px) and (max-width 300px) and (min-height 480px)
 	.docs-container 
 		 height: 195rem;
@@ -187,7 +198,7 @@
 		margin-left: 1.5%;
 		
 	.docs-buy
-		top -7.5rem !important 
+		top -10rem !important 
 		
 	.doc--title
 		top 8rem 
