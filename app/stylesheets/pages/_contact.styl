@@ -15,7 +15,7 @@ a:hover
 	background-size 100% 100%
 	position relative
 	with 100%
-	height 289rem
+	height 329rem
 	.contact-quote-container
 		margin-top 15rem
 		.contact-quote-title
@@ -189,6 +189,21 @@ a:hover
 .ci 
 	background-position -835px -15px !important
 	flag-structure()
+	
+.arabic-mail 
+	margin 0 
+	line-height 1rem 
+	padding 4rem 0 0 0
+	margin-bottom -1rem
+	font-weight bold
+
+.arabil-email 
+	margin-top -2rem
+	padding 1rem 0 0 0
+	
+.arabic-title 
+	padding 0
+	margin-bottom -1rem 
 
 .flag-cam 
 	width 39rem
@@ -197,6 +212,17 @@ a:hover
 	background url('../images/contact-sprite.png') no-repeat
 	background-position -108px -117px
 	background-size 264%
+	position absolute
+	left 2.6rem
+	top 2rem
+	
+.arab-cam 
+	width 87%
+	height 90px
+	display block
+	background url('../images/sprite-flags-arabics.png') no-repeat
+	background-position 0 0 
+	background-size 100%
 	position absolute
 	left 2.6rem
 	top 2rem
@@ -420,8 +446,14 @@ a:hover
 .contact-space
 	margin-left 0
 @media screen and (min-width 200px) and (max-width 480px)
+	.arab-cam 
+		width 87% 
+		height 90px 
+		top 7rem 
+		background-size 87%
+
 	.contact-container 
-		height: 485rem;
+		height:  551rem;
 	.contact-container .contact-quote-container .contact-quote-title
 		width 90%
 	.container-c 
@@ -571,7 +603,7 @@ a:hover
 
 @media screen and (min-width 380px) and (max-width 480px)
 	.contact-container 
-		height 448rem 
+		height 550rem 
 	.contact-container .contact-quote-container .contact-quote-title
 		width 90%
 	.container-c 
@@ -714,7 +746,11 @@ a:hover
 
 @media screen and (min-width 481px) and (max-width 700px)
 	.contact-container 
-		height: 485rem;
+		height: 540rem
+	.arab-cam
+		top 6rem 
+		width 87%
+		background-size 100%
 	.contact-container .contact-quote-container .contact-quote-title
 		width 90%
 	.container-c 
@@ -742,7 +778,7 @@ a:hover
 		width 100% 
 	
 	.contact-links-content .info-container
-		width 114%
+		width 108%
 	.mex 
 		background-position 3px -45px !important 
 		background-size 500px !important 
@@ -856,7 +892,7 @@ a:hover
 
 @media screen and (min-width 701px) and (max-width 900px)
 	.contact-container 
-		height: 485rem;
+		height: 547rem;
 	.contact-container .contact-quote-container .contact-quote-title
 		width 90%
 	.container-c 
@@ -882,9 +918,15 @@ a:hover
 			background-size 500px
 	.contact-links-content 
 		width 100% 
+		
+	.arab-cam 
+		width 87% 
+		height 90px 
+		top 6rem 
+		background-size 100%
 	
 	.contact-links-content .info-container
-		width 114%
+		width 105%
 	.mex 
 		background-position 3px -45px !important 
 		background-size 500px !important 
